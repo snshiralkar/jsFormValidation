@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#createBtn {
+  padding: 8px 15px;
+  background-color: dodgerblue;
+  border: none;
+  color: white;
+  margin-left: 45%;
+  margin-bottom: 10px;
+}
+#card {
+  width: 60%;
+  height: 80vh;
+  background-color: #ccc;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  border: none;
+  background-color: dodgerblue;
+  padding: 10px 15px;
+  margin-left: 10px;
+  color: white;
+  width: fit-content;
+}
+
+input {
+  padding: 8px 10px;
+  border: none;
+  border-radius: 6px;
+  margin: 10px;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+label {
+  font-size: 20px;
+}
+#fullnameField,
+#emailField,
+#passwordField {
+  color: red;
+  font-size: 20px;
+  display: none;
+}
